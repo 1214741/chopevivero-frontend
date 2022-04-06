@@ -16,6 +16,18 @@ export class AppComponent implements OnInit {
     console.log('Componente Creado');
   }
 
+  MostrarTemperatura(){
+    console.log(1)
+  }
+  MostrarHumedad(){
+    console.log(2)
+
+  }
+  MostrarRadiacion(){
+    console.log(3)
+
+  }
+
   ngOnInit(): void {
     console.log('Componente inicializado');
     this.viveroService
