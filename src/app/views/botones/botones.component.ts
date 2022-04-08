@@ -11,7 +11,7 @@ export class BotonesComponent implements OnInit {
 
   MostrarTemperatura(){
     //console.log(1)
-    this.renderer.setAttribute(this., "display", "flex");
+    //this.renderer.setAttribute(this., "display", "flex");
   }
   MostrarHumedad(){
     console.log(2)

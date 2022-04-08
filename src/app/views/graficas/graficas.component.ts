@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class GraficasComponent {
   public datos: Array<any> = [
-    { data: [45, 87, 32, 65, 78, 74], label: 'temperatura' },
+    { data: [45, 87, 132, 165, 178, 174], label: 'temperatura' },
     { data: [44, 85, 74, 96, 85, 74], label: 'humedad' },
     { data: [36, 85, 21, 14, 14, 25], label: 'radiacion' },
   ];
